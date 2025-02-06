@@ -3,7 +3,7 @@ import Buttons from "./components/Buttons";
 import Yggdrasil from "./assets/ygg.jpg";
 import ManageData from "./components/ManageData"
 import ListRender from "./components/ListRender"
-
+import ConditionalRender from './components/ConditionalRender';
 function App() {
   return (
     <div className="App"> 
@@ -26,6 +26,9 @@ function App() {
       <div className="Lista1">
         <h1> Lista </h1>
         <ListRender />  
+      </div>
+      <div>
+        <ConditionalRender />
       </div>
     </div>
   );
