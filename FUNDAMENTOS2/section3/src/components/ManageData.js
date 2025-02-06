@@ -11,11 +11,11 @@ const ManageData = () => {
     <div>
         <div>
             <p>Valor: {someData}</p>
-            <button onClick={() => (someData = 15)}> Mudar a Variável</button>
+            <button onClick={() => (someData = 15)} className="buttons2"> Mudar a Variável</button>
         </div>
         <div>
             <p>Valor: {number}</p>
-            <button onClick={() => SetNumber(25)}> mudar o state</button>
+            <button onClick={() => SetNumber(25)} className="buttons2" > mudar o state</button>
         </div>
     </div>
   )

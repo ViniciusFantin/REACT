@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App"> 
       <h1> BEM VINDO A SEÇÃO 3!</h1>
-      <ListRender />
       {/* Imagem em public */}
       <div>
         <h1 className="Titulos">Palácio de Tudo</h1>
@@ -20,9 +19,13 @@ function App() {
         <img src={Yggdrasil} alt="Sagrada" className="img2"/> 
       </div>
       <Buttons />
-      <div>
+      <div className="state">
         <p>Mudança de valores com state</p>
         <ManageData />
+      </div>
+      <div className="Lista1">
+        <h1> Lista </h1>
+        <ListRender />  
       </div>
     </div>
   );

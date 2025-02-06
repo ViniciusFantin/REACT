@@ -81,3 +81,51 @@
   background-color: black;
   color: white
 }
+
+.buttons2{
+  border-style: solid;
+  color: white;
+  background-color: black;
+  border-color: gold;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: auto;
+}
+
+.state{
+  border-style: double;
+  width: 50% ;
+  margin: auto;
+  border-width: 20px;
+ border-color: crimson;
+ color: black;
+ background-color: white; 
+}
+
+.Lista1 {
+  border-style: double;
+  width: 40%;
+  border-color: blue;
+  font: arial;
+  font-size: 40%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  text-align: left;
+  padding: 10px 30px;
+  border-width: 40px;
+  background-color: white;
+  color: black;
+
+}
+
+.buttons1{
+  border-style: solid;
+  border-color: red;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 40px;
+}

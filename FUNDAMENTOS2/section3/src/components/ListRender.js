@@ -7,10 +7,16 @@ const ListRender = () => {
         { id:1, name:"Plutão", age: 190 },
         { id:2, name:"Poseidon", age:723},
         { id:3, name:"Jupter", age:232},
+        { id:4, name:"Vênus", age: 190 },
+        { id:5, name:"Mercúrio", age:723},
+        { id:6, name:"Solaris", age:232},
+        { id:7, name:"Omega", age: 190 },
+        { id:8, name:"Marte", age:723},
+        { id:9, name:"Zeus", age:232},
     ]);
 
     const deleteRandom = () =>{
-        const randomNumber = Math.floor(Math.random() * 4);
+        const randomNumber = Math.floor(Math.random() * 10);
 
         setUsers((prevUsers) => {
             console.log(prevUsers)
@@ -33,7 +39,7 @@ const ListRender = () => {
                 </li> 
             ))}
         </ul>
-        <button onClick={deleteRandom}>Delete Random USer</button>
+        <button className="buttons1" onClick={deleteRandom}>Delete Random User</button>
     </div>
   )
 }

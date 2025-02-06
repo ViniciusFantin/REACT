@@ -6,7 +6,7 @@ function ClickMe()
 const Buttons = () =>{
     return(
        
-        <button onClick={ClickMe} className="buttons" > Click to Visit! </button>  
+        <button onClick={ClickMe}className="buttons2"> Click to Visit! </button>  
     )
 }
 
