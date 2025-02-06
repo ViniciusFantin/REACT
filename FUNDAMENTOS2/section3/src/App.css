@@ -129,3 +129,14 @@
   width: 200px;
   height: 40px;
 }
+
+.conditional{
+  font-size: 30px;
+  border-style: double;
+  margin-bottom: 60px;
+  border-width: 10px;
+}
+
+.secrets{
+  color: black;
+}
