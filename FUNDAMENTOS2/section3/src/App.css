@@ -140,3 +140,27 @@
 .secrets{
   color: black;
 }
+
+.img3{
+  width: 850px;
+  border-style: double;
+  border-color: white;
+  border-width: 10px;
+  margin-top: 50px;
+  margin-top: 50px;
+  text-align: left;
+
+}
+.lista2{
+  font-size: 30px;
+  margin: auto;
+  text-align: left;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.final{
+  width: 1110px;
+  margin: auto;
+}
