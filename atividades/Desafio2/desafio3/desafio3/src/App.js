@@ -1,5 +1,5 @@
 import "./App.css";
-import "Car" from "./desafio3/src/Components/Car"
+import Car from "./Components/Car";
 
 function App() {
   const myCars = [
@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <h1>Showroom de carros</h1>
       <div className="car-container">
-        {myCars.map((car) =>(
-          <myCars />
-        ) )}
+        {myCars.map((car) => (
+          <Car car={car} />
+        ))}
       </div>
     </div>
   );
