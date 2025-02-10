@@ -1,0 +1,10 @@
+p {
+  color: blue;
+  background-color: silver;
+}
+
+.my-comp-paragraph {
+  color: white;
+  background-color: black;
+  border-style: mixed;
+}

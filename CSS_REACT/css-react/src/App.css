@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.redTitle {
+  color: green;
+  border-style: solid;
+}
+
+.title {
+  color: blue;
+  border-style: dashed;
+}

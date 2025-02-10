@@ -43,7 +43,7 @@
   }
 }
 
-.Titulos{
+.Titulos {
   border-style: double;
   border-color: white;
   font: arial;
@@ -56,20 +56,20 @@
   margin-top: 50px;
 }
 
-.img1{
+.img1 {
   width: 850px;
   border-style: double;
   border-width: 10px;
   border-color: violet;
 }
-.img2{
+.img2 {
   width: 850px;
   border-style: double;
   border-color: blue;
   border-width: 10px;
 }
 
-.buttons{
+.buttons {
   border-style: solid;
   border-color: purple;
   width: 200px;
@@ -79,10 +79,10 @@
   margin-bottom: 40px;
   font-size: 20px;
   background-color: black;
-  color: white
+  color: white;
 }
 
-.buttons2{
+.buttons2 {
   border-style: solid;
   color: white;
   background-color: black;
@@ -94,14 +94,35 @@
   margin-top: auto;
 }
 
-.state{
+.buttons3 {
+  width: 60px;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  color: white;
+  border-style: mixed;
+  border-color: white;
+  border-width: 5px;
+}
+
+.borderbuttons {
   border-style: double;
-  width: 50% ;
+  border-width: 20px;
+  width: 400px;
+  height: 100px;
+  color: cyan;
+  margin: auto;
+  margin-top: 20px;
+  text-align: auto;
+}
+.state {
+  border-style: double;
+  width: 50%;
   margin: auto;
   border-width: 20px;
- border-color: crimson;
- color: black;
- background-color: white; 
+  border-color: crimson;
+  color: black;
+  background-color: white;
 }
 
 .Lista1 {
@@ -118,10 +139,9 @@
   border-width: 40px;
   background-color: white;
   color: black;
-
 }
 
-.buttons1{
+.buttons1 {
   border-style: solid;
   border-color: red;
   background-color: black;
@@ -130,18 +150,18 @@
   height: 40px;
 }
 
-.conditional{
+.conditional {
   font-size: 30px;
   border-style: double;
   margin-bottom: 60px;
   border-width: 10px;
 }
 
-.secrets{
+.secrets {
   color: black;
 }
 
-.img3{
+.img3 {
   width: 850px;
   border-style: double;
   border-color: white;
@@ -149,9 +169,8 @@
   margin-top: 50px;
   margin-top: 50px;
   text-align: left;
-
 }
-.lista2{
+.lista2 {
   font-size: 30px;
   margin: auto;
   text-align: left;
@@ -159,8 +178,16 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.userdetails {
+  border-style: mixed;
+  border-width: 120px;
+  border-color: pink;
+  margin: auto;
+  text-align: center;
+  font: 100px;
+}
 
-.final{
+.final {
   width: 1110px;
   margin: auto;
 }
