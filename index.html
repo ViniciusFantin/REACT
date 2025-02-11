@@ -1,0 +1,424 @@
+<table class="table table-bordered">
+  <tbody>
+    <tr>
+      <td style="text-align: center" width="20%">#EMPRESA_LOGO#</td>
+      <td colspan="2" class="border-0">
+        <p>
+          <b><span style="font-size: 17px">#EMPRESA_NOME#</span></b>
+        </p>
+        <p><b>CNPJ:</b>#EMPRESA_CNPJ#</p>
+        <p>
+          <b>Endereço:</b> #EMPRESA_ENDERECO# - #EMPRESA_BAIRRO# |
+          #EMPRESA_CIDADE#/#EMPRESA_ESTADO#
+        </p>
+        <p><b>Telefone:</b> #EMPRESA_TELEFONE_1#</p>
+        <p><b>E-mail:</b> #EMPRESA_EMAIL#</p>
+        <p><b>Site:</b> #EMPRESA_SITE#</p>
+      </td>
+      <td font-small="" text-center="" width="30%">
+        <p>
+          <b><span style="font-size: 16px">ORDEM DE SERVIÇO Nº</span></b>
+        </p>
+        <p><b>#OS_NUMERO#</b></p>
+        <p><b>Atendente:</b> #OS_USUARIO_ABERTURA#</p>
+        <p><b>Data Abertura</b><br />#OS_DATA_ABERTURA#</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<div class="border mb-0">
+  <p class="pt-3 px-3">
+    <b><span style="font-size: 17px">DADOS DO CLIENTE</span></b>
+  </p>
+  <table class="table table-bordered table-marginsmall table-striped">
+    <thead>
+      <tr>
+        <td>DATA SOLICITAÇÃO:#OS_DATA_AGENDAMENTO#</td>
+        <td colspan="2">CONTATO:##1_CONTATO##</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CLIENTE:#CLIENTE_NOME#</td>
+        <td>ENDEREÇO:#CLIENTE_ENDERECO#</td>
+        <td>CEP:#CLIENTE_ENDERECO_CEP#</td>
+      </tr>
+      <tr>
+        <td>BAIRRO:#CLIENTE_ENDERECO_BAIRRO#</td>
+        <td colspan="2">CIDADE:#CLIENTE_ENDERECO_CIDADE#</td>
+      </tr>
+      <tr>
+        <td>TELEFONE:#CLIENTE_TELEFONE#</td>
+        <td colspan="2">CELULAR:#CLIENTE_TELEFONE#</td>
+      </tr>
+      <tr>
+        <td>CPF:#CLIENTE_DOCUMENTO#</td>
+        <td colspan="2">EMAIL:#CLIENTE_EMAIL#</td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+</div>
+<div class="border mb-0">
+  <div class="border mb-0">
+    <p class="pt-3 px-3">
+      <span style="font-size: 17px"><b>DADOS DO&nbsp; EQUIPAMENTO</b></span>
+    </p>
+    <table class="table table-bordered table-marginsmall table-striped">
+      <thead>
+        <tr>
+          <td>#FOREACHrecorrencia# EQUIPAMENTO:#EQUIP_NOME#</td>
+          <td>MARCA:#EQUIP_FABRICANTE#</td>
+          <td>MODELO:#EQUIP_MODELO#</td>
+          <td>Nº SÉRIE:#EQUIP_N_SERIE# #ENDFOREACHrecorrencia#</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <br />
+    <div class="border mb-0">
+      <p class="pt-3 px-3">
+        <span style="font-size: 17px"><b>RELATO DO CLIENTE</b></span>
+      </p>
+      <table class="table table-bordered table-marginsmall table-striped">
+        <thead>
+          <tr>
+            <td colspan="5">#2_RELATO_CLIENTE#</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+            <td><br /></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <div class="border mb-0">
+        <p class="pt-3 px-3">
+          <b><span style="font-size: 17px">RELATO TÉCNICO</span></b>
+        </p>
+        <table class="table table-bordered table-marginsmall table-striped">
+          <thead>
+            <tr>
+              <td>#87_TEXTO#</td>
+              <td></td>
+              <td></td>
+              <td><br /></td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <br />
+        <div class="border mb-0">
+          <p class="pt-3 px-3"><br /></p>
+          <table class="table table-bordered table-marginsmall table-striped">
+            <thead>
+              <tr>
+                <td colspan="3">
+                  #FOREACHrecorrencia# TAXA DE
+                  DESLOCAMENTO:#3_TAXA_DESLOCAMENTO#
+                </td>
+                <td>
+                  <b
+                    >CLIENTE QUE CASO NÃO CONSTE DEFEITO FABRIL, TAXA DE VISITA
+                    R$680,00 FICA POR CONTA DO CLIENTE</b
+                  >
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VALOR TOTAL DA OS:#PROD_SERV_TOTAIS#</td>
+                <td></td>
+                <td></td>
+                <td>#ENDFOREACHrecorrencia#</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+        </div>
+        <div class="border mb-0">
+          <div class="border mb-0">
+            <p class="pt-3 px-3">
+              <b><span style="font-size: 17px">FORMA DE PAGAMENTO</span></b>
+            </p>
+            <table class="table table-bordered table-marginsmall table-striped">
+              <thead>
+                <tr>
+                  <td>&nbsp;#88_LISTA#</td>
+                  <td>TOTAL:#PROD_SERV_TOTAL#</td>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <br />
+            <div class="border mb-0">
+              <p></p>
+              <p><br /></p>
+              <p><br /></p>
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <thead></thead>
+                <tbody>
+                  <tr>
+                    <td colspan="4">
+                      <b>EQUIPAMENTOS FORA DE GARANTIA: </b>O serviço e as peças
+                      de reposição utilizadas nesse conserto, são garantidas por
+                      um período de 90 dias a partir da data descrita nesta
+                      Ordem de Serviço. Qualquer reclamação dentro desse período
+                      será aceita se apresentado neste documento.<br /><br />OS
+                      PRODUTOS DEIXADOS PARA CONSERTO E NÃO RETIRADOS NO PRAZO
+                      DE 90 (noventa) SERÃO INUTILIZADOS E/OU DOADOS.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="border mb-0">
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <tbody>
+                  <tr>
+                    <td colspan="4">
+                      <table class="table table-bordered">
+                        <tbody>
+                          <tr>
+                            <td><br /></td>
+                            <td><br /></td>
+                            <td><br /></td>
+                            <td><br /></td>
+                          </tr>
+                          <tr>
+                            <td>DATA:#OS_DATA_FIM_SERVICO#</td>
+                            <td>Responsável técnico:#OS_TECNICO_NOME#</td>
+                            <td>Entrada:#OS_TECNICO_ASSINATURA#</td>
+                            <td>Saída:#OS_TECNICO_ASSINATURA#</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="border mb-0">
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="border mb-0">
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="border mb-0">
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <tbody></tbody>
+              </table>
+            </div>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    <p>
+                      <b
+                        ><span style="font-size: 17px"
+                          >Serviço Previsto</span
+                        ></b
+                      >
+                    </p>
+                    <p>#OS_SERVICO_PREVISTO#</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    <p>
+                      <b
+                        ><span style="font-size: 17px"
+                          >Serviço Executado</span
+                        ></b
+                      >
+                    </p>
+                    <table class="table table-borderless table-marginless">
+                      <tbody>
+                        <tr>
+                          <td><b>Início:</b>&nbsp;#OS_DATA_INICIO_SERVICO#</td>
+                          <td><b>Fim:</b>&nbsp;#OS_DATA_FIM_SERVICO#</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            <b>Relatório:</b>&nbsp;#5_TEXTO_LONGO#
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            #IF6_SIM_NAO_EXPANSIVEL#<b>Forma pagamento:</b
+                            >&nbsp;#7_LISTA# #ENDIF6_SIM_NAO_EXPANSIVEL#
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            #IFprodutos_servicos#
+            <div class="border mb-0">
+              <p class="pt-3 px-3">
+                <b><span style="font-size: 17px">Produtos / Serviços</span></b>
+              </p>
+              <table
+                class="table table-bordered table-marginsmall table-striped"
+              >
+                <thead>
+                  <tr>
+                    <td width="1%"><b>IMAGEM</b></td>
+                    <td><b>COD.</b></td>
+                    <td><b>NOME</b></td>
+                    <td><b>QTD.</b></td>
+                    <td style="text-align: right"><b>VALOR</b></td>
+                    <td style="text-align: right"><b>TOTAL</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#FOREACHprodutos_servicos# #CAPA#</td>
+                    <td>#PROD_SERV_CODIGO#</td>
+                    <td>#PROD_SERV_NOME#</td>
+                    <td>#PROD_SERV_QUANTIDADE#</td>
+                    <td style="text-align: right">#PROD_SERV_VALOR#</td>
+                    <td style="text-align: right">
+                      #PROD_SERV_TOTAL# #ENDFOREACHprodutos_servicos#
+                    </td>
+                  </tr>
+                  <tr style="border-top: 2px solid #bababa !important">
+                    <td style="text-align: right"><br /></td>
+                    <td style="text-align: right"><br /></td>
+                    <td><br /></td>
+                    <td style="text-align: right" colspan="2">
+                      <b>PRODUTOS</b>
+                    </td>
+                    <td style="text-align: right">
+                      #PROD_SERV_PRODUTOS_TOTAL#
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: right"><br /></td>
+                    <td style="text-align: right"><br /></td>
+                    <td><br /></td>
+                    <td style="text-align: right" colspan="2">
+                      <b>SERVIÇOS</b>
+                    </td>
+                    <td style="text-align: right">
+                      #PROD_SERV_SERVICOS_TOTAL#
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: right">
+                      #IFPROD_SERV_TEVE_DESCONTO_TOTAL#
+                    </td>
+                    <td style="text-align: right"><br /></td>
+                    <td><br /></td>
+                    <td style="text-align: right" colspan="2">
+                      <b>DESCONTO</b>
+                    </td>
+                    <td style="text-align: right">
+                      <span style="color: red">#PROD_SERV_DESCONTOS_TOTAL#</span
+                      >#ENDIFPROD_SERV_TEVE_DESCONTO_TOTAL#
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: right"><br /></td>
+                    <td style="text-align: right"><br /></td>
+                    <td><br /></td>
+                    <td style="text-align: right" colspan="2"><b>TOTAL</b></td>
+                    <td style="text-align: right"><b>#PROD_SERV_TOTAIS#</b></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            #ENDIFprodutos_servicos# #IFOS_FOTOS#
+            <div style="padding: 0.75rem !important" class="border">
+              <p>
+                <b><span style="font-size: 17px">Fotos</span></b>
+              </p>
+              <p>#OS_FOTOS#</p>
+            </div>
+            #ENDIFOS_FOTOS#
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td style="border-right: 0" colspan="2" width="50%">
+                    <div style="text-align: center">
+                      #OS_TECNICO_ASSINATURA#
+                    </div>
+                    <div
+                      style="
+                        border-width: 1px;
+                        border-bottom-width: 1px;
+                        border-bottom-style: solid;
+                      "
+                    ></div>
+                    <div style="text-align: center">
+                      <b>#OS_TECNICO_NOME#</b>
+                    </div>
+                    <div style="text-align: center">
+                      <b><br /></b>
+                    </div>
+                  </td>
+                  <td style="border-left: 0" colspan="2" width="50%">
+                    <div style="text-align: center">
+                      #OS_CLIENTE_ASSINATURA#
+                    </div>
+                    <div
+                      style="
+                        border-width: 1px;
+                        border-bottom-width: 1px;
+                        border-bottom-style: solid;
+                      "
+                    ></div>
+                    <div style="text-align: center">
+                      <b>#OS_CLIENTE_ASSINATURA_NOME#</b>
+                    </div>
+                    <div style="text-align: center">
+                      <b>Documento: #OS_CLIENTE_ASSINATURA_DOCUMENTO#</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <p>
+                      <b><span style="font-size: 17px">Observações</span></b>
+                    </p>
+                    <div class="mt-1" paragraph="">
+                      Estou ciente e autorizo a cobrança de qualquer tipo de
+                      custo que esta ordem de serviço gerar.
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
