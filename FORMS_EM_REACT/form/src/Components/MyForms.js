@@ -20,9 +20,9 @@ const MyForms = (user) => {
   // 4 - Encio de formulário
   // 1 - Criação de form
   return (
-    <div className="App">
+    <div>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="field">
           <label htmlFor="name">Nome: </label>
           <input
             type="text"
@@ -32,19 +32,25 @@ const MyForms = (user) => {
             value={name}
           />
         </div>
-        {/* 2 - labrl envolvendo input */}
-        <label>
-          {/* 3 - Simplificação de State*/}
-          <span>E-mail: </span>
-          <input
-            type="email"
-            name="email"
-            placeholder="Digite aqui seu e-mail"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
-        </label>
-        <input type="submit" value="Enviar" />
+        {/* 
+        2 - labrl envolvendo input 
+        */}
+        <div className="field">
+          <label>
+            {/* 
+            3 - Simplificação de State
+            */}
+            <span>E-mail: </span>
+            <input
+              type="email"
+              name="email"
+              placeholder="Digite aqui seu e-mail"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+            />
+          </label>
+        </div>
+        <input className="button" type="submit" value="Enviar" />
       </form>
     </div>
   );

@@ -10,3 +10,27 @@ select {
   display: block;
   margin-top: 10px;
 }
+
+.field {
+  border-style: double;
+  border-color: white;
+  width: 500px;
+  padding: left;
+  text-align: left;
+  margin: auto;
+  height: 200px;
+  font-size: large;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: black;
+}
+
+.button {
+  border-style: mixed;
+  border-color: gold;
+  width: 90px;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
