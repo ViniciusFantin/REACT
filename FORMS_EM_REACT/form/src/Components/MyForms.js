@@ -2,9 +2,10 @@ import React from "react";
 import "./MyForms.css";
 import { useState } from "react";
 
-const MyForms = (user) => {
+const MyForms = ({ user }) => {
   const [name, setName] = useState(user ? user.name : "");
   const [email, setEmail] = useState(user ? user.email : "");
+  const [obs, setObs] = useState("");
 
   const handleName = (e) => {
     setName(e.target.value);
@@ -12,10 +13,16 @@ const MyForms = (user) => {
   console.log(name);
 
   const handleSubmit = (event) => {
-    event.prevenDefault();
+    event.preventDefault();
     console.log("Enviando informações");
     console.log(name, email);
+
+    //6 - limpando formulário
+    setName("");
+    setEmail("");
+    setObs("");
   };
+
   // 5 - Controlled Input
   // 4 - Encio de formulário
   // 1 - Criação de form
@@ -48,6 +55,17 @@ const MyForms = (user) => {
               onChange={(e) => setEmail(e.target.value)}
               value={email}
             />
+          </label>
+        </div>
+        <div className="field">
+          <label>
+            <span>Observações</span>
+            <textarea
+              name="Observação"
+              placeholder="Escreva aqui"
+              onChange={(e) => setObs(e.target.value)}
+              value={obs}
+            ></textarea>
           </label>
         </div>
         <input className="button" type="submit" value="Enviar" />
