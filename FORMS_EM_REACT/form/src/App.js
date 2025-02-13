@@ -5,7 +5,14 @@ function App() {
   return (
     <div className="App">
       <h1>FORMS</h1>
-      <MyForms user={{ name: "Vinicius", email: "vinifantin3@gmail.com" }} />
+      <MyForms
+        user={{
+          name: "Vinicius",
+          email: "vinifantin3@gmail.com",
+          obs: "Automatização de campos",
+          role: "Adm",
+        }}
+      />
     </div>
   );
 }

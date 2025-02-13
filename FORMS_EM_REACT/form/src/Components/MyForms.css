@@ -14,6 +14,7 @@ select {
 .field {
   border-style: double;
   border-color: white;
+  border-width: 5px;
   width: 500px;
   padding: left;
   text-align: left;
@@ -36,6 +37,27 @@ select {
 }
 
 textarea {
-  width: 100%;
+  width: 97%;
   margin: auto;
+  height: 76%;
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+}
+
+input {
+  width: 96%;
+  height: 10%;
+  color: white;
+  background-color: black;
+  border-style: mixed;
+  margin-bottom: 20px;
+}
+
+.role {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 90%;
 }

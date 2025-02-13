@@ -5,7 +5,8 @@ import { useState } from "react";
 const MyForms = ({ user }) => {
   const [name, setName] = useState(user ? user.name : "");
   const [email, setEmail] = useState(user ? user.email : "");
-  const [obs, setObs] = useState("");
+  const [obs, setObs] = useState(user ? user.obs : "");
+  const [role, setRole] = useState(user ? user.role : "");
 
   const handleName = (e) => {
     setName(e.target.value);
@@ -15,7 +16,7 @@ const MyForms = ({ user }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Enviando informações");
-    console.log(name, email);
+    console.log(name, email, obs, role);
 
     //6 - limpando formulário
     setName("");
@@ -56,6 +57,19 @@ const MyForms = ({ user }) => {
               value={email}
             />
           </label>
+          <label className="role">
+            <span>Permissão do Usuário</span>
+            <select
+              name="role"
+              onChange={(e) => setRole(e.target.value)}
+              value={role}
+            >
+              <option value="user">Usuário</option>
+              <option value="Adm">Administrador</option>
+              <option value="Auxiliar">Auxiliar</option>
+              <option value="Tercerizado">Tercerizado</option>
+            </select>
+          </label>
         </div>
         <div className="field">
           <label>
@@ -67,6 +81,7 @@ const MyForms = ({ user }) => {
               value={obs}
             ></textarea>
           </label>
+          <div></div>
         </div>
         <input className="button" type="submit" value="Enviar" />
       </form>
